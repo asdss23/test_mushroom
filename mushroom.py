@@ -1,3 +1,6 @@
+# importing some libraries
+
+
 import streamlit as st
 import pandas as pd
 import pickle
@@ -137,4 +140,5 @@ if st.button("Predict"):
 
 # Add a footer with more information
 st.markdown("---")
+
 st.markdown("This application uses a machine learning model- *logistic regression* to predict whether a mushroom is edible or poisonous based on its physical attributes. Always exercise caution and consult an expert before consuming wild mushrooms.")
